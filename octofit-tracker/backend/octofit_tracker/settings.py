@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Add the codespace URL to ALLOWED_HOSTS
+ALLOWED_HOSTS += ['psychic-broccoli-694p9p95v59wf4qgw-8000.app.github.dev', 'localhost']
+
 
 # Application definition
 
